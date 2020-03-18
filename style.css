@@ -1,15 +1,38 @@
-<p>{
+html{
+	font-family: 'Avenir Next', thin;
+}
+
+a{
+  color: white;
+	text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+p{
   width: 200px;
-  height: 100px;
-  background-color: red;
-  border: 1px;
-  padding: 15px 32px;
+  height: 60px;
   text-align: center;
-  text-decoration: shadow;
-  display: inline-block;
-  font-size: 18px;
- color: red;
- border: 2px solid maroon;
- text-shadow: 2px 2px black;
- box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: auto;
+	border-radius: 8px;
+  line-height: 3.4;
+  font-size: 1.125rem;
+  /* 1 rem is 16 px, therefore I increased it to be around 17px*/
+  background: linear-gradient(to top left, rgba(0,0,0,0.3),
+  rgba(0,0,0,0.3)30%, rgba(0,0,0,0));
+  background-color: #3c4d78;
+	border: 1px solid black;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+p:hover {
+  text-decoration: none;
+  background-color:#de6626;
+  border:1px solid black;
 }
