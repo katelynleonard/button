@@ -21,7 +21,7 @@ p{
   /* 1 rem is 16 px, therefore I increased it to be around 17px*/
   background: linear-gradient(to top left, rgba(0,0,0,0.3),
   rgba(0,0,0,0.3)30%, rgba(0,0,0,0));
-  background-color: #3c4d78;
+  background-color: red;
 	border: 1px solid black;
   box-shadow: 1px 1px 1px 1px black;
 }
@@ -33,6 +33,6 @@ a:hover {
 
 p:hover {
   text-decoration: none;
-  background-color:#de6626;
+  background-color:light blue;
   border:1px solid black;
 }
